@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About</title>
+		<link rel="stylesheet" href="dark.css">
+	</head>
+	<body>
+		<section class="container">
+			<section class="toppane" id="top">
+				<div class="pageheader">
+					<ul class="nav">
+						<li><a href="darkhome.html">Home</a></li>
+						<li><a href="darkrecipes.html">Recipes</a></li>
+						<li><a href="darktips.html">Tips & Tricks</a></li>
+						<li><a href="darkabout.html">About</a></li>
+					</ul>
+					<div class="rotation">
+						<button onclick="myFunction()">Need Advice?</button>
+						<p id="changeme">Lorem ipsum dolor sit amet</p>
+					</div>
+					<a href="about.html"><canvas id = "my_canvas" width = "50" height = "50"></canvas></a>
+				</div>
+		</section>
+			<section class="d-flex">
+				<section class="widescreen">
+					<h2>Baking Tips and Tricks are sourced from Tasty.co; <a href="https://tasty.co/article/jasminnahar/seriously-useful-baking-tips">List here.</a></h2>
+					<br>
+					<h2>Images are sourced from Brave Image Search with the 'Public Domain' license</h2>
+					<br>
+					<h2>Page structure building is developed from Lab Activities</h2>
+					<br>
+					<h2>Page styling is influenced by W3Schools CSS tutorials; <a href="https://www.w3schools.com/css/default.asp">W3Schools</a></h2>
+					<br>
+					<h2>Give us feedback:</h2>
+					<form action="/feedback" method="post">
+					  <ul>
+						<li>
+						  <label for="name">Name (optional):</label>
+						  <br>
+						  <input type="text" id="name" name="user_name"/>
+						</li>
+						<li>
+						  <label for="mail">Email (for return contact):</label>
+						  <br>
+						  <input type="email" id="mail" name="user_email"/>
+						</li>
+						<li>
+						  <label for="mail">Phone no. (for return contact):</label>
+						  <br>
+						  <input type="email" id="mail" name="user_email"/>
+						</li>
+						<li>
+						  <label for="msg">Leave any details below:</label>
+						  <br>
+						  <textarea id="msg" name="user_message"></textarea>
+						</li>
+						<li><input type="submit" value="Submit"></li>
+					  </ul>
+					</form>
+					<br>
+					<h2>Experience and issue with the site? Leave information below:</h2>
+					<br>
+					<form action="/issues" method="post">
+					  <ul>
+						<li>
+						  <label for="name">Name (optional):</label>
+						  <br>
+						  <input type="text" id="name" name="user_name"/>
+						</li>
+						<li>
+						  <label for="mail">Email (for return contact):</label>
+						  <br>
+						  <input type="email" id="mail" name="user_email"/>
+						</li>
+						<li>
+						  <label for="mail">Phone no. (for return contact):</label>
+						  <br>
+						  <input type="email" id="mail" name="user_email"/>
+						</li>
+						<li>
+							<input type="radio" id="page1" name="pageissue" value="home">
+							<label for="home">Home</label><br>
+							<input type="radio" id="page2" name="pageissue" value="recipes">
+							<label for="recipes">Recipes</label><br>
+							<input type="radio" id="page3" name="pageissue" value="tips">
+							<label for="tips">Tips</label><br>
+							<input type="radio" id="page4" name="pageissue" value="about">
+							<label for="about">About</label>
+						</li>
+						<li>
+						  <label for="msg">Leave any details below:</label>
+						  <br>
+						  <textarea id="msg" name="user_message"></textarea>
+						</li>
+						<li><input type="submit" value="Submit"></li>
+					  </ul>
+					</form>
+					<br><p class="Anchor"><a href="#top">Back to top</a></p>
+				</section>
+			</section>
+		<script src="scripts.js"></script>
+	</body>	
+</html>	

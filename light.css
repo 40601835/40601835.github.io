@@ -1,0 +1,208 @@
+/* css hex values
+--thistle: #cdb4dbff;
+--fairy-tale: #ffc8ddff;
+--carnation-pink: #ffafccff;
+--persian-indigo: #27187eff;
+--jet: #30323dff;
+*/
+
+/* container sections */
+.container {
+	width: 100%;
+	height: 100%;
+	color: #27187eff;
+}
+
+.toppane {
+	width: 100%;
+	height: 10%;
+	background-color: #cdb4db;
+}
+
+.leftpane {
+	width: 20%;
+	background-color: #ffc8dd;
+}
+
+.rightpane {
+	width: 80%;
+	height: 90%;
+	background-color: #ffafcc;
+}
+
+.widescreen {
+	width: 100%;
+	background-color: #ffafcc;
+}
+
+body {
+	margin: 0!important;
+}
+
+.d-flex {
+	display: flex;
+}
+
+/* navigation bar */
+.nav {
+	font-family: "Lucida Handwriting";
+    border: 1px solid #ffc8ddff;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 1px;
+    padding: 0;
+    text-align: center;
+	display: flex;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: 10px;
+}
+
+/* toppane */
+.pageheader {
+	display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+	justify-content: center;
+    align-items: center;
+}
+
+/* tips and tricks */
+.rotation {
+    border: 1px solid #ffc8ddff;
+	border-width: 1px 0;
+    margin: 1px;
+    padding: 0;
+    text-align: right;
+	display: flex;
+}
+
+/* anchor link */
+.Anchor a {
+	margin: 0;
+    text-align: center;
+	display: block;
+	padding: 10px;
+}
+
+/* gel */
+.leftpane h1 {
+	margin: 10px;
+}
+
+.leftpane h3 {
+	
+}
+
+.rightpane h2 {
+	display: inline-block;
+	float: left;
+}	
+
+.rightpane h6 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+	display: block;
+}
+
+.rightpane img {
+	float: right;
+	border: 10px solid #ffc8ddff;
+}
+
+/* homepage layout */
+#my-team .team {
+    margin: 20px 20px 0 0;
+    overflow:auto;
+}
+
+#my-team .member {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#my-team .post-thumb {
+    margin-right: 10px;
+}
+
+#my-team .post-thumb img {
+}
+
+#my-team .post-content {
+}
+
+#my-team .post-title {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 200%
+}
+
+.widescreen h2 {
+  margin: 0 auto;
+  width: 50%;
+  padding: 1em;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+  padding: 1em;
+  border: 1px solid #27187eff;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline;
+  text-align: right;
+}
+
+input {
+  font: 1em sans-serif;
+  box-sizing: border-box;
+  border: 1px solid #27187eff;
+}
+
+textarea {
+  font: 1em sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #27187eff;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #27187eff;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px; */
+}
+
+button {
+  margin-left: 0.5em;
+}
+
+#my_canvas {
+	margin: 10px;
+}
