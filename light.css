@@ -85,6 +85,10 @@ body {
 	display: flex;
 }
 
+.rotation p {
+    max-width: 300px;
+}
+
 /* anchor link */
 .Anchor a {
 	margin: 0;

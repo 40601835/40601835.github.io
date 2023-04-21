@@ -5,10 +5,10 @@
 */
 function myFunction() {
   var x = document.getElementById("changeme");
-  if (x.innerHTML === "Lorem ipsum dolor sit amet") {
-    x.innerHTML = "This is a really really really really really really long tip";
+  if (x.innerHTML === "When measuring flours, don’t scoop with your measuring cup. Spoon flour into your measuring cup and level it with a knife") {
+    x.innerHTML = "Bang your cake pans on the counter a few times before putting them in the oven. It will get the big air bubbles out of the batter";
   } else {
-    x.innerHTML = "Lorem ipsum dolor sit amet";
+    x.innerHTML = "When measuring flours, don’t scoop with your measuring cup. Spoon flour into your measuring cup and level it with a knife";
   }
 }
 
