@@ -1,3 +1,8 @@
+/* 
+	changing texts scripts
+	This script was adapted to cycle through text tips - this feature is incomplete
+	https://www.w3schools.com/howto/howto_js_toggle_text.asp
+*/
 function myFunction() {
   var x = document.getElementById("changeme");
   if (x.innerHTML === "Lorem ipsum dolor sit amet") {

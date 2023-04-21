@@ -6,8 +6,12 @@
 --jet: #30323dff;
 */
 
-/* container sections */
-.container {
+/*
+	container sections
+	This code was used to divide the page into several sections, it was adapted to handle the changing site layout on the tips and about pages;
+	https://stackoverflow.com/questions/36662712/how-do-i-divide-a-page-in-three-vertical-sections
+*/
+	.container {
 	width: 100%;
 	height: 100%;
 	color: #27187eff;
@@ -115,28 +119,32 @@ body {
 	border: 10px solid #ffc8ddff;
 }
 
-/* homepage layout */
-#my-team .team {
+/*
+	recipes layout
+	This code was adapted to make page successfully layout using divs
+	https://stackoverflow.com/questions/57841854/image-left-text-and-header-to-the-right-aligned-top-in-html-and-css
+*/
+#my-team .recipelist {
     margin: 20px 20px 0 0;
     overflow:auto;
 }
 
-#my-team .member {
+#my-team .recipe {
     display: flex;
     margin-bottom: 10px;
 }
 
-#my-team .post-thumb {
+#my-team .recipe-image {
     margin-right: 10px;
 }
 
-#my-team .post-thumb img {
+#my-team .recipe-image img {
 }
 
-#my-team .post-content {
+#my-team .recipe-details {
 }
 
-#my-team .post-title {
+#my-team .recipe-name {
     margin-top: 0;
     font-weight: bold;
     font-size: 200%
